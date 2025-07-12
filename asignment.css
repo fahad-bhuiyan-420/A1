@@ -1,0 +1,219 @@
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+body{
+    background-color: #F5F7FE;
+}
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.header1{
+    background-image: url(/Assets/Hero-bg.png);
+    padding-top: 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+.logo{
+    font-size: 34px;
+    font-weight: 900;
+    color: #4E47FF;
+}
+.btn-primary{
+    background-color: #4E47FF;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    height: 48px;
+    border-radius: 10px;
+    padding: 12px 36px;
+    margin-top: 40px;
+}
+.btn-secondary{
+    background-color: #4E47FF;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    height: 48px;
+    border-radius: 10px;
+    padding: 12px 36px;
+    margin-bottom: 152px;
+}
+
+.banner{
+    text-align: center;
+}
+.heading{
+    font-size: 65px;
+    font-weight: bold;
+    max-width: 905px;
+    text-align: center;
+    margin-left: 400px;
+    padding-bottom: 0px;
+}
+.action{
+    display:flex;
+    justify-content: space-between;
+    margin: 116px 159px 0px 141px;
+}
+.image{
+    border-radius: 48px;
+}
+.action input[type="image"]{
+    border-radius: 48px;
+}
+.first{
+    margin-top: 62.5px;
+    margin-bottom: 62.5px;
+    max-width: 517px;
+}
+.first p{
+    color: rgba(37, 36, 50, 0.5);
+    font-size: 24px;
+}
+.first h2{
+    font-size: 42px;
+    font-weight: bolder;
+}
+.user-content{
+    display:flex;
+    justify-content: center;
+    gap: 158px;
+}
+.user-content h1{
+    font-size: 80px;
+    font-weight: bold;
+    color:#4E47FF;
+    margin: 0px 0px
+}
+.user-content p{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 0px;
+}
+.productive-user{
+    background-color:rgba(78, 71, 255, 0.1);
+    text-align: center;
+    max-width: 1140px;
+    /* max-height: 306px; */
+    margin-left: 250px;
+    border-radius: 10px
+}
+.para{
+    font-size: 38px;
+    font-weight: bolder;
+    padding: 50px 0px 0px
+}
+.productive-user section{
+    padding-bottom: 20px;
+}
+.review-content{
+    display: flex;
+    max-width: 1140px;
+    margin-left: 230px;
+    text-align: center;
+    gap: 20px;
+}
+.review-content h1{
+    margin-left: 400px;
+    font-size: 42px;
+    font-weight: bold;
+}
+.content-sec{
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: left;
+    width: 367px;
+    height: 243px;
+    padding: 24px;
+}
+.reviewer{
+    display: flex;
+    gap: 20px;
+}
+.pic{
+    padding-top: 22px;
+    width: 40px;
+    height: 40px;
+}
+.review{
+    padding-top: 100px;
+}
+.name{
+    color: rgba(117, 117, 117, 1);
+}
+.date{
+    color: rgba(179, 179, 179, 1);
+}
+.touch{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+.touch h2{
+    font-weight: bold;
+    font-size: 97px;
+    max-width: 528px;
+}
+.form input{
+    font-size: 20px;
+    width: 497px;
+    height: 70px;
+    padding-left: 32px;
+    border: none;
+    border-radius: 10px;
+}
+.form textarea{
+    width: 497px;
+    height: 135px;
+    padding-left: 32px;
+    padding-top: 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.form input[type="button"]{
+    width: 79%;
+    background-color: #4E47FF;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    height: 48px;
+    border-radius: 10px;
+    padding: 12px 20px;
+    margin-top: 19px;
+}
+.footer{
+    text-align: center;
+}
+.footer h2{
+    font-size: 100px;
+    margin-bottom: 0px;
+    padding-top: 40px;
+}
+.footer p{
+    color: rgba(137, 135, 161, 1);
+    width: 531px;
+    height: 48px;
+    margin-left: 580px;
+}
+.info a{
+    color: rgba(137, 135, 161, 1);
+    text-decoration: none;
+    margin: 48px;
+    padding-bottom: 100px;
+}
+button:hover{
+    background-color: rgb(202, 236, 4);
+}
+.form input[type="button"]:hover{
+    background-color: rgb(202, 236, 4);
+}
