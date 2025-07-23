@@ -2,7 +2,6 @@
 .inter-normal {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
 }
 body{
@@ -11,11 +10,10 @@ body{
 .raleway-normal {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
 }
 .header1{
-    background-image: url(/Assets/Hero-bg.png);
+    background-image: url("./Assets/Hero-bg.png");
     padding-top: 0px;
 }
 nav{
@@ -46,7 +44,6 @@ nav{
     height: 48px;
     border-radius: 10px;
     padding: 12px 36px;
-    margin-bottom: 152px;
 }
 
 .banner{
@@ -55,10 +52,10 @@ nav{
 .heading{
     font-size: 65px;
     font-weight: bold;
-    max-width: 905px;
+    /* max-width: 905px; */
     text-align: center;
-    margin-left: 400px;
-    padding-bottom: 0px;
+    /* margin-left: 400px; */
+    padding: 0px 250px
 }
 .action{
     display:flex;
@@ -140,6 +137,7 @@ nav{
     gap: 20px;
 }
 .pic{
+    border-radius: 50%;
     padding-top: 22px;
     width: 40px;
     height: 40px;
