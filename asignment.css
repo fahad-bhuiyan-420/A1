@@ -201,7 +201,8 @@ nav{
     color: rgba(137, 135, 161, 1);
     width: 531px;
     height: 48px;
-    margin-left: 580px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .info a{
     color: rgba(137, 135, 161, 1);
